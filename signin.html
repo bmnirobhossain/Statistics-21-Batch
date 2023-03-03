@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="./img/logo-stat .png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Statistics 21 Batch</title>
+  </head>
+  <body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <button type="button" class="btns">Sign In</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100088386112790&mibextid=ZbWKwL"><img src="./img/fb.png" alt=""></a>
+                <a href="#"><img src="./img/tw.png" alt=""></a>
+                <a href="https://ku.ac.bd/discipline/stat"><img src="./img/gp.png" alt=""></a>
+            </div>
+            <form id="sign-in" class="input-group">
+                <input type="email" class="input-field" placeholder="Email" id="email" required>
+                <input type="password" class="input-field" placeholder="Password" id="password" required>
+                <input type="submit" class="submit-btn" value="login" onclick="signin()">
+                <div class="linka">
+                    <a href="index.html">Go to home page</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        function signin(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if(email="statistics21@gamil.com" && password == "stat21!"){
+                window.open("login.html")
+                alert("Login successfully");
+            }
+            else{
+                alert("Invalied information");
+                return;
+            }
+        }
+    </script>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
