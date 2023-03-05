@@ -1,3 +1,3 @@
 # Statistics-21-Batch
 live preview
-https://github.com/bmnirobhossain/Statistics-21-Batch.git
+https://bmnirobhossain.github.io/Statistics-21-Batch/
